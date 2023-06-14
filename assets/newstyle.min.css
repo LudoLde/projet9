@@ -3,7 +3,7 @@ body {
    margin: auto;
 }
 * {
-   font-family: "Inter";
+   font-family: Inter;
    font-style: normal;
 }
 .top-header {
@@ -70,7 +70,7 @@ body {
    font-size: 30px;
 }
 .about-me__introduction {
-   font-family: "Spectral";
+   font-family: Spectral;
    font-weight: 800;
    font-style: italic;
    width: 60%;
@@ -95,7 +95,7 @@ body {
 .nav-pills .nav-link {
    color: #000;
    font-size: 22px;
-   font-weight: bold;
+   font-weight: 700;
 }
 .item-column {
    position: relative;
@@ -114,18 +114,18 @@ body {
    object-fit: cover;
    padding: 0.5em;
 }
-.mg-prev,
-.mg-next {
+.mg-next,
+.mg-prev {
    width: 30px;
    height: 30px;
-   border-radius: 0%;
+   border-radius: 0;
    justify-content: center;
    align-items: center;
    display: flex;
    font-size: 24px;
 }
 .quote {
-   font-family: "Spectral";
+   font-family: Spectral;
    font-style: italic;
    width: 70%;
    margin: auto;
@@ -301,7 +301,7 @@ input[type="submit"] {
    .top-header .nav,
    .top-header .nav ul {
       width: 100%;
-      padding: 0 0 0 0;
+      padding: 0;
    }
    .top-header .nav li {
       flex: 1;

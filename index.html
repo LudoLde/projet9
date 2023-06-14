@@ -3,21 +3,50 @@
    <head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
-      <link rel="stylesheet" href="./assets/newstyle.css" />
+      <link rel="stylesheet" href="./assets/newstyle.min.css" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link
          href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
          rel="stylesheet" />
       <meta charset="UTF-8" />
-      <meta name="description" content="Site présentant la photographe Nina Carducci et ses photos" />
+      <meta name="description" content="Site présentant la photographe Nina Carducci de Bordeaux et ses photos" />
+      <meta name="adress" content="68 avenue Alsace-Lorraine, 33200 Bordeaux" />
+      <meta name="telephone" content="05 56 67 78 89" />
+      <meta name="opening hours" content="Mo-Fr 10:00 - 19:00" />
+      <meta property="og:title" content="Nina Carducci" />
+      <meta property="og:type" content="article" />
+      <meta property="og:description" content="Site présentant la photographe Nina Carducci et ses photos" />
+      <meta property="author" content="Nina Carducci" />
+      <meta property="og:image" content="https://photos.google.com/search/_tra_/photo/AF1QipOp845JqLjIBGb5TuCIeTvXeISgXoOMGRzHIeyo" />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content="Nina Carducci" />
+      <meta name="twitter:description" content="Site présentant la photographe Nina Carducci et ses photos" />
+      <meta name="twitter:image" content="https://photos.google.com/search/_tra_/photo/AF1QipOp845JqLjIBGb5TuCIeTvXeISgXoOMGRzHIeyo" />
+      <meta name="twitter:site" content="@ninacarducci" />
       <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
       <script
          src="https://code.jquery.com/jquery-3.4.1.min.js"
          integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
          crossorigin="anonymous"></script>
-      <script src="./assets/newmaugallery.js"></script>
-      <script src="./assets/newscript.js"></script>
+      <script src="./assets/newmaugallery.min.js"></script>
+      <script src="./assets/newscript.min.js"></script>
+      <script type="application/ld+json">
+         {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "image": "https://photos.google.com/search/_tra_/photo/AF1QipOp845JqLjIBGb5TuCIeTvXeISgXoOMGRzHIeyo",
+            "name": "Nina Carducci",
+            "address": {
+               "streetAddress": "68 avenue Alsace-Lorraine",
+               "addressLocality": "Bordeaux",
+               "postalCode": "33200"
+            },
+            "telephone": "05 56 67 78 89",
+            "openingHours": "Mo-Fr 10:00-19:00"
+         }
+      </script>
+
       <title>Nina Carducci</title>
    </head>
    <body>
@@ -73,7 +102,7 @@
       </header>
       <div id="about">
          <div class="picture left">
-            <img src="./assets/images/nina2.png" width="536" height="535" alt="nina-picture" />
+            <img src="./assets/images/nina3.png" width="100%" height="100%" alt="nina-picture" />
          </div>
          <div id="about-me">
             <h2 class="about-me__title">A propos de moi</h2>
@@ -220,11 +249,11 @@
                   <input type="email" name="email" id="email" />
                   <label for="message">Message</label>
                   <textarea name="message" id="message" cols="30" rows="10"></textarea>
-                  <input type="submit" value="Envoyer" />
+                  <input type="submit" id="envoyer" value="Envoyer" />
                </form>
             </div>
             <div class="picture right">
-               <img src="./assets/images/camera1.png" width="419" height="418" alt="camera-old" />
+               <img src="./assets/images/camera1.png" width="100%" height="100%" alt="camera-old" />
             </div>
          </div>
       </section>
